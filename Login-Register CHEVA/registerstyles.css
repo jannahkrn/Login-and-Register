@@ -1,0 +1,73 @@
+body {
+    font-family: Raleway;
+    background-image: url('bg.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: transparent; 
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 1cm;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    border: 1px solid #804b54;
+    border-radius: 7px;
+    margin-right: 1cm;
+}
+
+button {
+    width: 50%;
+    padding: 8px;
+    background-color: #ffcad4;
+    color: #804b54;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #804b54;
+    color: #ffcad4;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #804b54;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
